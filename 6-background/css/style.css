@@ -1,0 +1,9 @@
+#tlo-obrazek {
+    width: 500px;
+    height: 500px;
+    background-image: url(../img/pobrane.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+background-attachment: fixed;
+    background-size: cover;
+}

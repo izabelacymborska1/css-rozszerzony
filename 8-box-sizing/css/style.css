@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.box {
+    float:left;
+    width: 50%;
+    border: 10px solid orange;
+    padding: 50px;
+    font-size: 32px;
+    
+}
