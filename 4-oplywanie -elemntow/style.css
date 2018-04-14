@@ -1,0 +1,16 @@
+#truskawka1 {
+    float:left;
+}
+
+#truskawka2 {
+    float:right;
+}
+
+
+/*#truskawka1, #truskawka2*/{
+    float: none;
+}
+
+p:last-child {
+    clear: righ; 
+}

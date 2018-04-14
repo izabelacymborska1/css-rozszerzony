@@ -1,0 +1,27 @@
+#p1::before {
+    content:"przed elementem";
+    color: red;
+}
+#p2::after {
+    content: "za elementem";
+    color: aqua;
+     
+}
+
+
+#p3::first-letter{
+    color:green;
+    font-weight: bold;
+}
+
+#p4::selection {
+    background-color: yellow;
+}
+
+#p7::first-line {
+    background-color: blue;
+}
+#p7 > span {
+background-color: yellow;
+}
+    

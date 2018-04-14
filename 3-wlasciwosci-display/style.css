@@ -1,0 +1,34 @@
+#p1 {
+    background-color: red;
+}
+
+#p2 {
+    background-color: blue
+}
+
+div#elementy-liniowe > p:first-child {
+    background-color: yellow;
+}
+
+div#elementy-liniowe > p:last-child {
+    background-color: fuchsia;
+}
+
+#elementy-liniowe span {
+    display: block;
+}
+
+#elementy-inline-block ul li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    background-color: beige;
+    border: 1px dotted red;
+    text-align: center;
+    line-height: 50px;
+}
+
+#elemety-dispaly-none p {
+    display: none;
+}

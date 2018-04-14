@@ -1,0 +1,19 @@
+div.klient[suma]{
+background-color: aqua;
+}
+
+div.klient[detaliczny~="tak"] {
+    background-color: rebeccapurple;
+}
+
+div.klient[detaliczny*="tak"] {
+    background-color: green;
+}
+
+div.klient[suma^="25"] {
+    color: red;
+}
+
+div.klient[suma$="00"] {
+    color: yellow;
+}
