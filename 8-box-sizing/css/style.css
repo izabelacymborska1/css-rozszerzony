@@ -1,13 +1,12 @@
-* {
+.box {
+    border: 5px solid red;
+    width: 25%;
+    height: 200px;
+    float: left;
+    padding: 25px;
     box-sizing: border-box;
 }
 
-
-.box {
-    float:left;
-    width: 50%;
-    border: 10px solid orange;
-    padding: 50px;
-    font-size: 32px;
-    
+.box:nth-of-type(2) {
+    overflow: auto;
 }
