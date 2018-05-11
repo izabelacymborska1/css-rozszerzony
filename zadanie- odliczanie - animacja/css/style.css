@@ -1,0 +1,105 @@
+#czarny-box {
+  background-color: black; 
+  width: 900px;
+  height: 700px;
+  position: relative;
+}
+
+.content {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  text-align: center;
+  transform: translateY(-40%);
+  width: max-content;
+   visibility: hidden;
+  animation: countdown 1s;
+  animation-fill-mode: forwards; 
+}
+
+
+@keyframes countdown {
+  0% {
+    visibility: hidden;
+  }
+  99% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+
+#cyfra-9 {
+  animation-delay: 1s;
+}
+
+#cyfra-8 {
+  animation-delay: 2s;
+}
+
+#cyfra-7 {
+  animation-delay: 3s;
+}
+
+#cyfra-6 {
+  animation-delay: 4s;
+}
+
+#cyfra-5 {
+  animation-delay: 5s;
+}
+
+#cyfra-4 {
+  animation-delay: 6s;
+}
+
+#cyfra-3 {
+  animation-delay: 7s;
+}
+
+#cyfra-2 {
+  animation-delay: 8s;
+}
+
+#cyfra-1 {
+  animation-delay: 9s;
+}
+
+
+#napis {
+  visibility: hidden;
+  color: white;
+  font-size: 80px;
+  position: absolute;
+  top: 45%;
+  transition: translateY(-40%);
+  left: 20%;
+  width: auto;
+  animation: pojawisienaekranie 1s infinite;
+  animation-delay: 10s;
+  border: 3px solid beige;
+}
+
+@keyframes pojawisienaekranie {
+  0% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
