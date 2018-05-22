@@ -1,5 +1,4 @@
 * {
-    'use strict';
     box-sizing: border-box;
     font-family: 'Verdana', sans-serif;
 }
@@ -41,7 +40,11 @@ body {
 @media all and (min-width:993px) and (max-width: 1170px) {
     #main-head {
         background-image: url(../img/man-2.jpg);
-        height: 100vh;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 70vh;
+        width: 100vw;
     }
     
     #main-head h1, h2 {
@@ -61,8 +64,13 @@ body {
 
 
 @media all and (max-width:992px) {
+    #main-head {
+    height: 50vh;
+
+}
     #main-head h1, h2 {
         text-align: center;
+        color: black;
         top: 455px;
     }
 
