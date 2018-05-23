@@ -22,14 +22,14 @@ body {
 }
 
 #main-head h1, h2 {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    position: absolute;
+    top: 40%;
+    transform: translateY(200%);
     margin-left: 20px;
 }
 
 #main-head h1 {
-    font-size: 12px;
+    font-size: 15px;
 
 }
 
@@ -49,7 +49,7 @@ body {
     
     #main-head h1, h2 {
         top: 25%;
-        transform: translateY(140%);
+        transform: translateY(360%);
         margin-left: 720px;
 }
     #main-head h1 {
@@ -71,14 +71,14 @@ body {
     #main-head h1, h2 {
         text-align: center;
         color: black;
-        top: 455px;
+        top: 350px;
     }
 
     #main-head h1 {
-        font-size: 18px;
+        font-size: 16px;
 
 }
-    
+}
 
 
 
