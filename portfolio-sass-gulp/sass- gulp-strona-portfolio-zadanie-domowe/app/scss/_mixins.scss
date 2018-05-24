@@ -1,0 +1,51 @@
+@mixin background-header {
+    background-image: url("../img/header/pictures_on_the_wall.jpg");
+    height: 100vh;
+    color: white;
+    position: relative;
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+    
+}
+
+
+@mixin content-portfolio {
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+
+
+@mixin figure-background {
+    height: 250px;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+
+
+@mixin figure-pictures {
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+@mixin team-social-links {
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    color: $color-blue;
+    border: 1px solid $color-blue;
+    border-radius: 45px;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+
+}
