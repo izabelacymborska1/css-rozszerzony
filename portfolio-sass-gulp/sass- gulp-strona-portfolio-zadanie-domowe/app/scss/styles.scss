@@ -7,7 +7,7 @@
 // HEADER START 
 
 .my-header {
-    @include background-header;
+    @include header-tlo;
     #header-text {
         width: 100%;
         height: 100%;
@@ -86,10 +86,10 @@
 }
 
 .content-portfolio {
-    @include content-portfolio;
+    @include portfolio-inside;
 
     figure {
-        @include figure-background;
+        @include figure-tlo;
     }
     .partfolio-image {
         padding-bottom: 30px;
@@ -97,28 +97,28 @@
 
     #figure1 {
         background-image: url("../img/portfolio/box_of_cookies.jpg");
-        @include figure-pictures;
+        @include figure-foto;
     }
 
     #figure2 {
         background-image: url("../img/portfolio/chaotic_paint.jpg");
-        @include figure-pictures;
+        @include figure-foto;
     }
     #figure3 {
         background-image: url("../img/portfolio/chestnut_on_bracket.jpg");
-        @include figure-pictures;
+        @include figure-foto;
     }
     #figure4 {
         background-image: url("../img/portfolio/child_with_blue_paint.jpg");
-        @include figure-pictures;
+        @include figure-foto;
     }
     #figure5 {
         background-image: url("../img/portfolio/house_with_blue_doors.jpg");
-        @include figure-pictures;
+        @include figure-foto;
     }
     #figure6 {
         background-image: url("../img/portfolio/typing_on_laptop.jpg");
-        @include figure-pictures;
+        @include figure-foto
     }
 }
 
@@ -153,7 +153,7 @@
         text-align: center;
     }
     .social-links {
-        @include team-social-links;
+        @include socialmedia-icons;
         &:hover {
             background-color: $color-blue;
             color: white;
@@ -233,6 +233,7 @@
     position: relative;
     color: white;
     text-align: center;
+    
     .copyright i.fab {
         height: 20px;
         width: 20px;
