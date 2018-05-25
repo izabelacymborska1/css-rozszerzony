@@ -17,15 +17,16 @@ h1 {
     font-weight: 600;
 }
 h2 {
-    font-size: 20px
+    font-size: 20px;
 }
 
+/*ekran duży*/
 
 @media (min-width:1170px) {
     #main-head {
         width: 100vw;
         height: 100vh;
-        background-image: url("../obrazy/man-1.jpg");
+        background-image: url("../img/man-1.jpg");
         color: white;
     }
    h1, h2 {
@@ -35,19 +36,20 @@ h2 {
     }
     
     h1 {
-        font-size: 50px;
+        font-size: 35px;
     }
     
     h2 {
-        font-size: 40px;
+        font-size: 30px;
     }
 }
 
+/*ekrany  średnie*/
 @media (min-width:992px) and (max-width:1170px) {
     #main-head {
         width: 100vw;
         height: 70vh;
-        background-image: url("../obrazy/man-2.jpg");
+        background-image: url("../img/man-2.jpg");
         color: white;
     }
     h1, h2 {
@@ -56,10 +58,10 @@ h2 {
         left: 55vw;
     }
 }
-
+/*ekrany małe*/
 @media (max-width:992px) {
     #main-head {
-/*        background-image: url("../obrazy/man-1.jpg");*/
+        background-image: url("../img/man-1.jpg");
         background-position: center;
         width: 100vw;
         height: 50vh;
