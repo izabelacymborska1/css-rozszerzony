@@ -1,93 +1,72 @@
 * {
+    font-family: Verdana;
     box-sizing: border-box;
-    font-family: 'Verdana', sans-serif;
 }
 
 body {
-    color: white;
-    text-transform: uppercase;
-    padding: 0;
     margin: 0;
-
 }
 
 #main-head {
-    height: 100vh;
-    background-image: url(../img/man-1.jpg);
-    background-position: center;
     background-size: cover;
-    position: relative;
-    top: 0;
-
+    position: fixed;
+    text-transform: uppercase;
+}
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+h2 {
+    font-size: 20px
 }
 
-#main-head h1, h2 {
-    position: absolute;
-    top: 40%;
-    transform: translateY(200%);
-    margin-left: 20px;
-}
 
-#main-head h1 {
-    font-size: 15px;
-
-}
-
-#main-head h2 {
-    font-size: 20px;
-}
-
-@media all and (min-width:993px) and (max-width: 1170px) {
+@media (min-width:1170px) {
     #main-head {
-        background-image: url(../img/man-2.jpg);
-        background-position: top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 70vh;
         width: 100vw;
+        height: 100vh;
+        background-image: url("../obrazy/man-1.jpg");
+        color: white;
+    }
+   h1, h2 {
+        position: relative;
+        top: 30vh;
+        left: 5vw;
     }
     
-    #main-head h1, h2 {
-        top: 25%;
-        transform: translateY(360%);
-        margin-left: 720px;
-}
-    #main-head h1 {
-        font-size: 20px;
+    h1 {
+        font-size: 50px;
     }
     
-    #main-head h2 {
-        font-size: 23px;
+    h2 {
+        font-size: 40px;
+    }
 }
 
-}
-
-
-@media all and (max-width:992px) {
+@media (min-width:992px) and (max-width:1170px) {
     #main-head {
-    height: 50vh;
-
-}
-    #main-head h1, h2 {
-        text-align: center;
-        color: black;
-        top: 350px;
+        width: 100vw;
+        height: 70vh;
+        background-image: url("../obrazy/man-2.jpg");
+        color: white;
     }
-
-    #main-head h1 {
-        font-size: 16px;
-
+    h1, h2 {
+        position: relative;
+        top: 15vh;
+        left: 55vw;
+    }
 }
+
+@media (max-width:992px) {
+    #main-head {
+/*        background-image: url("../obrazy/man-1.jpg");*/
+        background-position: center;
+        width: 100vw;
+        height: 50vh;
+        text-align: center;
+    }
+    h1, h2 {
+        position: relative;
+        top: 100%
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
