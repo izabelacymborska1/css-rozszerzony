@@ -24,6 +24,7 @@ nav {
     height: 60px;
     top: 0;
     z-index: 20;
+    background-color: rgba(34,18,32, .3);
 
 }
 
@@ -42,19 +43,19 @@ nav li {
 
 nav ul li a {
     text-decoration: none;
-    color: #1ac056;
+    color: black;
 }
 
 nav ul li a:hover {
-    color: #291f1a;
+    color: greenyellow;
 }
 .nav-link span {
-    color: darkgreen;
+    color: white;
     font-weight: 600;
     transition: 1s all;
 }
 .nav-link span:hover {
-    color: brown;
+    color: greenyellow;
 
 }
 .navbar-brand span{
